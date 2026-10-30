@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ecBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#EFF6FF"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <filter id="ecShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#ecBgGrad)"/>
+
+  <!-- Subtle dot pattern -->
+  <pattern id="dotPattern" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1.2" fill="#CBD5E1"/>
+  </pattern>
+  <rect width="800" height="450" fill="url(#dotPattern)" opacity="0.6"/>
+
+  <!-- Browser Card -->
+  <g filter="url(#ecShadow)">
+    <rect x="50" y="40" width="700" height="370" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+    
+    <!-- Header -->
+    <path d="M 50 54 A 14 14 0 0 1 64 40 L 736 40 A 14 14 0 0 1 750 54 L 750 78 L 50 78 Z" fill="#F8FAFC"/>
+    <line x1="50" y1="78" x2="750" y2="78" stroke="#E2E8F0" stroke-width="1"/>
+    
+    <circle cx="76" cy="59" r="5" fill="#EF4444"/>
+    <circle cx="94" cy="59" r="5" fill="#F59E0B"/>
+    <circle cx="112" cy="59" r="5" fill="#10B981"/>
+
+    <rect x="140" y="49" width="360" height="20" rx="6" fill="#EDF2F7"/>
+    <text x="154" y="63" font-family="Plus Jakarta Sans, sans-serif" font-size="11" fill="#64748B" font-weight="500">store.suhani.dev/storefront/products</text>
+
+    <!-- Memoization Badge -->
+    <rect x="590" y="49" width="140" height="20" rx="10" fill="#DBEAFE"/>
+    <circle cx="603" cy="59" r="3.5" fill="#2563EB"/>
+    <text x="614" y="63" font-family="Plus Jakarta Sans, sans-serif" font-size="10" fill="#1E40AF" font-weight="600">+80% MEMOIZATION BOOST</text>
+  </g>
+
+  <!-- Storefront Sub-nav -->
+  <rect x="75" y="94" width="455" height="34" rx="6" fill="#F8FAFC" stroke="#F1F5F9" stroke-width="1"/>
+  <rect x="85" y="101" width="60" height="20" rx="4" fill="#2563EB"/>
+  <text x="115" y="115" text-anchor="middle" font-family="Plus Jakarta Sans, sans-serif" font-size="10" fill="#FFFFFF" font-weight="600">All Items</text>
+  <text x="175" y="115" font-family="Plus Jakarta Sans, sans-serif" font-size="11" fill="#64748B">Electronics</text>
+  <text x="250" y="115" font-family="Plus Jakarta Sans, sans-serif" font-size="11" fill="#64748B">Apparel</text>
+  <text x="315" y="115" font-family="Plus Jakarta Sans, sans-serif" font-size="11" fill="#64748B">Accessories</text>
+
+  <!-- Product Grid (4 Items) -->
+  <g>
+    <!-- Item 1 -->
+    <rect x="75" y="140" width="105" height="150" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="85" y="150" width="85" height="65" rx="6" fill="#E2E8F0"/>
+    <circle cx="127" cy="182" r="16" fill="#CBD5E1"/>
+    <rect x="85" y="225" width="65" height="8" rx="2" fill="#334155"/>
+    <text x="85" y="250" font-family="JetBrains Mono, monospace" font-size="11" fill="#0F172A" font-weight="700">₹2,499</text>
+    <rect x="85" y="260" width="85" height="20" rx="4" fill="#2563EB"/>
+    <text x="127" y="274" text-anchor="middle" font-family="Plus Jakarta Sans, sans-serif" font-size="9" fill="#FFFFFF" font-weight="600">Add to Cart</text>
+
+    <!-- Item 2 -->
+    <rect x="190" y="140" width="105" height="150" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="200" y="150" width="85" height="65" rx="6" fill="#E2E8F0"/>
+    <rect x="215" y="165" width="55" height="35" rx="4" fill="#CBD5E1"/>
+    <rect x="200" y="225" width="70" height="8" rx="2" fill="#334155"/>
+    <text x="200" y="250" font-family="JetBrains Mono, monospace" font-size="11" fill="#0F172A" font-weight="700">₹1,899</text>
+    <rect x="200" y="260" width="85" height="20" rx="4" fill="#2563EB"/>
+    <text x="242" y="274" text-anchor="middle" font-family="Plus Jakarta Sans, sans-serif" font-size="9" fill="#FFFFFF" font-weight="600">Add to Cart</text>
+
+    <!-- Item 3 -->
+    <rect x="305" y="140" width="105" height="150" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="315" y="150" width="85" height="65" rx="6" fill="#E2E8F0"/>
+    <circle cx="357" cy="182" r="20" fill="#CBD5E1"/>
+    <rect x="315" y="225" width="55" height="8" rx="2" fill="#334155"/>
+    <text x="315" y="250" font-family="JetBrains Mono, monospace" font-size="11" fill="#0F172A" font-weight="700">₹4,200</text>
+    <rect x="315" y="260" width="85" height="20" rx="4" fill="#2563EB"/>
+    <text x="357" y="274" text-anchor="middle" font-family="Plus Jakarta Sans, sans-serif" font-size="9" fill="#FFFFFF" font-weight="600">Add to Cart</text>
+
+    <!-- Item 4 -->
+    <rect x="420" y="140" width="105" height="150" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <rect x="430" y="150" width="85" height="65" rx="6" fill="#E2E8F0"/>
+    <rect x="445" y="165" width="55" height="35" rx="4" fill="#CBD5E1"/>
+    <rect x="430" y="225" width="60" height="8" rx="2" fill="#334155"/>
+    <text x="430" y="250" font-family="JetBrains Mono, monospace" font-size="11" fill="#0F172A" font-weight="700">₹999</text>
+    <rect x="430" y="260" width="85" height="20" rx="4" fill="#2563EB"/>
+    <text x="472" y="274" text-anchor="middle" font-family="Plus Jakarta Sans, sans-serif" font-size="9" fill="#FFFFFF" font-weight="600">Add to Cart</text>
+  </g>
+
+  <!-- Technical Memoization Benchmark Banner at Bottom Left -->
+  <rect x="75" y="306" width="455" height="80" rx="8" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+  <text x="95" y="328" font-family="Plus Jakarta Sans, sans-serif" font-size="12" fill="#1E40AF" font-weight="700">Performance Architecture Highlight</text>
+  <text x="95" y="348" font-family="Plus Jakarta Sans, sans-serif" font-size="10" fill="#475569">Integrated React.memo, useMemo, and custom useCallback selectors.</text>
+  <text x="95" y="368" font-family="JetBrains Mono, monospace" font-size="10" fill="#2563EB" font-weight="600">⚡ Re-renders reduced from 240ms to 48ms (80% rendering gain)</text>
+
+  <!-- Right: Cart & JWT Auth Drawer -->
+  <g>
+    <rect x="545" y="94" width="185" height="292" rx="8" fill="#FAFAFA" stroke="#E2E8F0" stroke-width="1"/>
+    
+    <!-- User Auth Status -->
+    <rect x="560" y="108" width="155" height="36" rx="6" fill="#F1F5F9"/>
+    <circle cx="576" cy="126" r="8" fill="#10B981"/>
+    <text x="592" y="124" font-family="Plus Jakarta Sans, sans-serif" font-size="10" fill="#0F172A" font-weight="600">JWT Authenticated</text>
+    <text x="592" y="136" font-family="Plus Jakarta Sans, sans-serif" font-size="8" fill="#64748B">Protected API Token Active</text>
+
+    <!-- Cart Summary -->
+    <text x="560" y="165" font-family="Plus Jakarta Sans, sans-serif" font-size="12" fill="#0F172A" font-weight="700">Cart Summary (3)</text>
+    
+    <rect x="560" y="178" width="155" height="28" rx="4" fill="#FFFFFF" stroke="#F1F5F9" stroke-width="1"/>
+    <text x="568" y="196" font-family="Plus Jakarta Sans, sans-serif" font-size="10" fill="#334155">Wireless Headphones</text>
+    <text x="690" y="196" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="10" fill="#0F172A">₹2,499</text>
+
+    <rect x="560" y="212" width="155" height="28" rx="4" fill="#FFFFFF" stroke="#F1F5F9" stroke-width="1"/>
+    <text x="568" y="230" font-family="Plus Jakarta Sans, sans-serif" font-size="10" fill="#334155">Mechanical Keyboard</text>
+    <text x="690" y="230" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="10" fill="#0F172A">₹4,200</text>
+
+    <line x1="560" y1="250" x2="715" y2="250" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="2,2"/>
+    
+    <text x="560" y="270" font-family="Plus Jakarta Sans, sans-serif" font-size="11" fill="#64748B">Total Checkout</text>
+    <text x="715" y="270" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="13" fill="#0F172A" font-weight="700">₹6,699</text>
+
+    <rect x="560" y="285" width="155" height="34" rx="6" fill="#1E3A8A"/>
+    <text x="637" y="306" text-anchor="middle" font-family="Plus Jakarta Sans, sans-serif" font-size="11" fill="#FFFFFF" font-weight="600">Proceed to Checkout</text>
+
+    <rect x="560" y="328" width="155" height="42" rx="4" fill="#F8FAFC"/>
+    <text x="637" y="345" text-anchor="middle" font-family="Plus Jakarta Sans, sans-serif" font-size="9" fill="#10B981" font-weight="600">✓ Secure MERN API</text>
+    <text x="637" y="358" text-anchor="middle" font-family="Plus Jakarta Sans, sans-serif" font-size="8" fill="#64748B">Express + Mongo Protected Routes</text>
+  </g>
+</svg>

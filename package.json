@@ -1,0 +1,15 @@
+{
+  "name": "suhani-patel-mern-portfolio",
+  "version": "1.0.0",
+  "description": "Dedicated MERN Stack Developer Portfolio for Suhani Patel",
+  "scripts": {
+    "client": "npm --prefix client run dev",
+    "client:build": "npm --prefix client run build",
+    "server": "node server/server.js",
+    "server:dev": "node --watch server/server.js",
+    "test:api": "node server/test-endpoints.js",
+    "seed": "npm --prefix server run seed"
+  },
+  "author": "Suhani Patel",
+  "license": "ISC"
+}

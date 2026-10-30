@@ -1,0 +1,393 @@
+{
+  "profile": {
+    "name": "Suhani Patel",
+    "title": "React.js Developer & Full-Stack MERN Engineer",
+    "secondaryTitle": "Frontend Specialist | Enterprise Dashboard Architect",
+    "email": "shuwanipatel@gmail.com",
+    "phone": "+91 9009212605",
+    "location": "Indore, Madhya Pradesh, India",
+    "availability": "Available for Full-Time Roles & Internships",
+    "linkedIn": "https://linkedin.com/in/Suhani-Patel-WebDev",
+    "github": "https://github.com/SuhaniPatel36",
+    "summary": "Computer Science Engineering graduate and Full-Stack Developer with hands-on expertise building enterprise dashboard systems, ERP workflow platforms, and high-performance React.js applications. Proven track record in boosting operational efficiency by 85.6% and optimizing client-side performance by 80% through modern architectural design and memoization.",
+    "highlights": [
+      "MERN Stack Developer Intern at Keen Solution (Jan 2025 - Present)",
+      "Coordinated campus placement drives with an 80% hiring result",
+      "Specialized in reusable React components, RESTful API design & JWT auth",
+      "5+ production-grade hands-on web applications built"
+    ],
+    "metrics": {
+      "operationalEfficiency": "85.6%",
+      "speedAccuracyBoost": "60%",
+      "adminReduction": "60%",
+      "memoizationBoost": "80%"
+    }
+  },
+  "projects": [
+    {
+      "title": "BizSuite — ERP Management Platform",
+      "slug": "bizsuite-erp-platform",
+      "subtitle": "Enterprise Resource Planning & Real-time Workflow Tracking",
+      "category": "Enterprise & ERP",
+      "description": "Developed an ERP-based business management platform designed to centralize employee records, inventory tracking, and cross-departmental workflow management with role-based security.",
+      "keyHighlights": [
+        "Integrated secure REST APIs and role-based access control (RBAC) for scalable data governance",
+        "Built responsive real-time analytics dashboards delivering critical operational insights",
+        "Improved operational efficiency by 85.6% through automated workflow tracking and centralized storage"
+      ],
+      "metrics": {
+        "efficiencyBoost": "+85.6% Efficiency",
+        "performance": "Role-Based RBAC"
+      },
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Mongoose",
+        "Tailwind CSS",
+        "RESTful APIs"
+      ],
+      "liveUrl": "https://bizsuite-preview.vercel.app",
+      "githubUrl": "https://github.com/SuhaniPatel36/bizsuite-erp",
+      "imageUrl": "/images/projects/bizsuite.svg",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "title": "Urban Taal — Dance Management System",
+      "slug": "urban-taal-management-system",
+      "subtitle": "Full-Stack Academy Automation & Certificate Generation Engine",
+      "category": "Full-Stack MERN",
+      "description": "Built a comprehensive management platform to digitize academy operations, automating student attendance, recurring fee cycles, dynamic notifications, and automated certification workflows.",
+      "keyHighlights": [
+        "Reduced manual administrative burden by approximately 60% via automated record tracking",
+        "Engineered server-side PDF generation module with customized certificates and printable salary invoices",
+        "Constructed responsive admin dashboards with real-time data sync across devices"
+      ],
+      "metrics": {
+        "efficiencyBoost": "-60% Admin Time",
+        "performance": "PDF Certificate Engine"
+      },
+      "technologies": [
+        "React.js",
+        "Express.js",
+        "Node.js",
+        "MongoDB",
+        "PDFKit",
+        "Context API",
+        "Axios"
+      ],
+      "liveUrl": "https://urban-taal.vercel.app",
+      "githubUrl": "https://github.com/SuhaniPatel36/urban-taal-management",
+      "imageUrl": "/images/projects/urbantaal.svg",
+      "featured": true,
+      "order": 2
+    },
+    {
+      "title": "Full-Stack E-Commerce Web Application",
+      "slug": "fullstack-ecommerce-app",
+      "subtitle": "High-Performance Modern Storefront with JWT Authentication",
+      "category": "Full-Stack MERN",
+      "description": "Engineered a scalable multi-category e-commerce web application featuring user authentication, protected routes, dynamic shopping cart state, order workflows, and catalog filters.",
+      "keyHighlights": [
+        "Architected secure JWT-based authentication flow with HTTP-only cookies and protected route middleware",
+        "Implemented advanced React memoization (useMemo, React.memo, useCallback), boosting rendering speed by 80%",
+        "Designed responsive mobile-first UI with intuitive cart drawer, product search, and state persistence"
+      ],
+      "metrics": {
+        "efficiencyBoost": "+80% Speed",
+        "performance": "JWT Protected Architecture"
+      },
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT",
+        "Tailwind CSS",
+        "Axios"
+      ],
+      "liveUrl": "https://suhani-ecommerce-app.vercel.app",
+      "githubUrl": "https://github.com/SuhaniPatel36/mern-ecommerce-platform",
+      "imageUrl": "/images/projects/ecommerce.svg",
+      "featured": true,
+      "order": 3
+    },
+    {
+      "title": "NeuroLearn — AI-Assisted Learning Platform",
+      "slug": "neurolearn-ai-platform",
+      "subtitle": "Full-Stack MERN Ecosystem with Python Flask Microservice",
+      "category": "AI & Machine Learning",
+      "description": "Full-stack academic platform combining a high-speed React/Node web application with a specialized Python Flask AI microservice for predictive student performance scoring and risk analysis.",
+      "keyHighlights": [
+        "Bridged MERN architecture with Python Flask AI service for real-time risk scoring and adaptive quizzes",
+        "Developed role-based dashboards for students, instructors, and evaluators with comprehensive analytics",
+        "Designed frictionless assessment workflows with automated test grading and visual report cards"
+      ],
+      "metrics": {
+        "efficiencyBoost": "Flask Microservice",
+        "performance": "AI Risk Scoring"
+      },
+      "technologies": [
+        "React.js",
+        "Vite",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Python Flask",
+        "Chart.js"
+      ],
+      "liveUrl": "https://neurolearn-ai.vercel.app",
+      "githubUrl": "https://github.com/SuhaniPatel36/neurolearn-ai-platform",
+      "imageUrl": "/images/projects/neurolearn.svg",
+      "featured": true,
+      "order": 4
+    }
+  ],
+  "skills": [
+    {
+      "category": "Frontend Development",
+      "items": [
+        {
+          "name": "React.js",
+          "level": "Advanced",
+          "badge": "Core Stack",
+          "description": "Hooks, custom hooks, component lifecycle, virtual DOM"
+        },
+        {
+          "name": "JavaScript (ES6+)",
+          "level": "Advanced",
+          "badge": "Core Language",
+          "description": "Async/await, closures, prototypes, event loop"
+        },
+        {
+          "name": "Tailwind CSS",
+          "level": "Advanced",
+          "badge": "Styling",
+          "description": "Custom configs, responsive layouts, design tokens"
+        },
+        {
+          "name": "HTML5 & Semantic UI",
+          "level": "Advanced",
+          "badge": "Markup",
+          "description": "Accessible, SEO-optimized markup"
+        },
+        {
+          "name": "CSS3 & Animations",
+          "level": "Advanced",
+          "badge": "Styling",
+          "description": "Flexbox, Grid, keyframes, transitions"
+        },
+        {
+          "name": "Context API & Redux",
+          "level": "Proficient",
+          "badge": "State Mgmt",
+          "description": "Predictable state management & global slices"
+        },
+        {
+          "name": "React Router (v6)",
+          "level": "Advanced",
+          "badge": "Navigation",
+          "description": "Nested routes, protected routes, loaders"
+        },
+        {
+          "name": "Responsive Design",
+          "level": "Advanced",
+          "badge": "UX standard",
+          "description": "100% device adaptability and cross-browser testing"
+        }
+      ]
+    },
+    {
+      "category": "Backend Development",
+      "items": [
+        {
+          "name": "Node.js",
+          "level": "Proficient",
+          "badge": "Runtime",
+          "description": "Event-driven runtime, streams, modular architecture"
+        },
+        {
+          "name": "Express.js",
+          "level": "Proficient",
+          "badge": "Framework",
+          "description": "REST APIs, middleware pipelines, error handlers"
+        },
+        {
+          "name": "RESTful API Design",
+          "level": "Advanced",
+          "badge": "Architecture",
+          "description": "Resource routing, HTTP methods, pagination, status codes"
+        },
+        {
+          "name": "JWT Authentication",
+          "level": "Proficient",
+          "badge": "Security",
+          "description": "Token issuance, verification, protected routes, cookies"
+        },
+        {
+          "name": "MVC Architecture",
+          "level": "Advanced",
+          "badge": "Pattern",
+          "description": "Clean separation of Models, Views, and Controllers"
+        },
+        {
+          "name": "Axios & Fetch API",
+          "level": "Advanced",
+          "badge": "Integration",
+          "description": "Interceptors, request cancellation, JSON handling"
+        }
+      ]
+    },
+    {
+      "category": "Databases & Cloud",
+      "items": [
+        {
+          "name": "MongoDB",
+          "level": "Proficient",
+          "badge": "NoSQL DB",
+          "description": "Document modeling, indexing, aggregation framework"
+        },
+        {
+          "name": "Mongoose ODM",
+          "level": "Proficient",
+          "badge": "Modeling",
+          "description": "Schema validation, virtuals, middleware hooks"
+        },
+        {
+          "name": "MongoDB Atlas",
+          "level": "Proficient",
+          "badge": "Cloud DB",
+          "description": "Cloud cluster management, connection strings, security"
+        },
+        {
+          "name": "Firebase Auth & Firestore",
+          "level": "Intermediate",
+          "badge": "Cloud BaaS",
+          "description": "NoSQL cloud storage & OAuth sign-in"
+        },
+        {
+          "name": "SQL & Relational DBs",
+          "level": "Intermediate",
+          "badge": "Relational",
+          "description": "Queries, joins, foreign keys, normalization"
+        }
+      ]
+    },
+    {
+      "category": "Tools, Platforms & CS Fundamentals",
+      "items": [
+        {
+          "name": "Git & GitHub",
+          "level": "Advanced",
+          "badge": "VCS",
+          "description": "Branching, pull requests, code reviews, rebasing"
+        },
+        {
+          "name": "Postman",
+          "level": "Advanced",
+          "badge": "API Testing",
+          "description": "API testing, environment variables, collection runners"
+        },
+        {
+          "name": "VS Code & Debugging",
+          "level": "Advanced",
+          "badge": "IDE",
+          "description": "Breakpoints, profiler, extensions ecosystem"
+        },
+        {
+          "name": "Vercel & Netlify",
+          "level": "Proficient",
+          "badge": "CI/CD",
+          "description": "Continuous deployment, preview branches, serverless"
+        },
+        {
+          "name": "Data Structures & Algorithms",
+          "level": "Proficient",
+          "badge": "CS Core",
+          "description": "Arrays, trees, graphs, sorting, complexity analysis"
+        },
+        {
+          "name": "OOP, DBMS & OS Principles",
+          "level": "Proficient",
+          "badge": "CS Core",
+          "description": "Encapsulation, inheritance, ACID compliance, transactions"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "role": "MERN Stack Developer Intern",
+      "company": "Keen Solution",
+      "location": "Indore, India",
+      "period": "Jan 2025 – Present",
+      "type": "Internship",
+      "description": "Spearheading frontend development and REST API integration for enterprise dashboard systems and business management platforms.",
+      "achievements": [
+        "Developed responsive and scalable web applications utilizing React.js, JavaScript (ES6+), Node.js, Express.js, and MongoDB.",
+        "Built modular, reusable UI components and integrated REST APIs for business platforms, improving speed & accuracy by 60%.",
+        "Enhanced ERP and management platforms to automate operational workflows, resulting in a 30% gain in operational efficiency.",
+        "Collaborated with cross-functional development teams on bug resolution, API payload optimization, and performance profiling.",
+        "Achieved 100% responsiveness and fluid cross-browser compatibility across mobile, tablet, and desktop viewports."
+      ],
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "REST APIs",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "role": "Placement Cell Student Coordinator",
+      "company": "Malwa Institute of Science & Technology",
+      "location": "Indore, India",
+      "period": "2023 – 2025",
+      "type": "Leadership",
+      "description": "Served as a key liaison between corporate recruiters and graduating engineering students to orchestrate on-campus recruitment drives.",
+      "achievements": [
+        "Collaborated with university placement cell to successfully coordinate campus drives resulting in an 80% placement rate.",
+        "Managed communication pipelines, scheduling, and logistical coordination for 20+ tech recruitment companies.",
+        "Organized mock technical interviews, resume workshops, and coding challenges for peers."
+      ],
+      "technologies": [
+        "Stakeholder Communication",
+        "Leadership",
+        "Event Coordination",
+        "Technical Screening"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Technology (B.Tech)",
+      "major": "Computer Science & Engineering",
+      "institution": "Malwa Institute of Science & Technology",
+      "location": "Indore, Madhya Pradesh",
+      "period": "2022 – 2026",
+      "status": "Final Year Undergraduate",
+      "details": "Specialization in full-stack web architectures, operating systems, database management systems, and algorithms."
+    },
+    {
+      "degree": "Diploma in Computer Applications (DCA)",
+      "major": "Computer Applications & Programming",
+      "institution": "Makhanlal Chaturvedi National University",
+      "location": "Indore, Madhya Pradesh",
+      "period": "2022 – 2023",
+      "status": "Completed",
+      "details": "Foundations in software fundamentals, databases, computer networks, and practical applications."
+    },
+    {
+      "degree": "Higher Secondary Certificate (Class XII)",
+      "major": "Science & Mathematics",
+      "institution": "MP Board of Secondary Education",
+      "location": "Indore, Madhya Pradesh",
+      "period": "2021 – 2022",
+      "status": "Completed",
+      "details": "Focused on physics, chemistry, and mathematics with analytical problem solving."
+    }
+  ]
+}
